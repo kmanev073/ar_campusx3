@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9178"
-	"mapversion" "234"
+	"mapversion" "237"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "234"
+	"mapversion" "237"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7006,6 +7006,16 @@ world
 	}
 	group
 	{
+		"id" "54400"
+		editor
+		{
+			"color" "195 156 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "53512"
 		editor
 		{
@@ -7132,6 +7142,337 @@ world
 }
 entity
 {
+	"id" "54003"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 241.5 0"
+	"enabled" "1"
+	"origin" "-389 1386 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54005"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 241.5 0"
+	"enabled" "1"
+	"origin" "-262 1392 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54015"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 241.5 0"
+	"enabled" "1"
+	"origin" "-349 1594 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54017"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 241.5 0"
+	"enabled" "1"
+	"origin" "-222 1600 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54050"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 29.5 0"
+	"enabled" "1"
+	"origin" "-1119 1476 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54052"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 16 0"
+	"enabled" "1"
+	"origin" "-1133 1337 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54066"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 29.5 0"
+	"enabled" "1"
+	"origin" "-1125 1192 201"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54068"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 16 0"
+	"enabled" "1"
+	"origin" "-1139 1053 201"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54132"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "0 0 0"
+	"pitch" "-90"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-503 1234.1 136.527"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "54161"
+	"classname" "info_player_terrorist"
+	"angles" "0 217 0"
+	"enabled" "1"
+	"origin" "1101 -617 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54163"
+	"classname" "info_player_terrorist"
+	"angles" "0 156 0"
+	"enabled" "1"
+	"origin" "1069 -753 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54197"
+	"classname" "info_player_terrorist"
+	"angles" "0 217 0"
+	"enabled" "1"
+	"origin" "790 -422 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54199"
+	"classname" "info_player_terrorist"
+	"angles" "0 156 0"
+	"enabled" "1"
+	"origin" "758 -557 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54241"
+	"classname" "info_player_terrorist"
+	"angles" "0 84 0"
+	"enabled" "1"
+	"origin" "-321.25 -785.75 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54243"
+	"classname" "info_player_terrorist"
+	"angles" "0 29.1964 0"
+	"enabled" "1"
+	"origin" "-611 -844 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54307"
+	"classname" "info_player_terrorist"
+	"angles" "0 156 0"
+	"enabled" "1"
+	"origin" "442 -855 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54309"
+	"classname" "info_player_terrorist"
+	"angles" "0 217 0"
+	"enabled" "1"
+	"origin" "474 -720 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54335"
+	"classname" "info_player_terrorist"
+	"angles" "0 156 0"
+	"enabled" "1"
+	"origin" "475 -498 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54337"
+	"classname" "info_player_terrorist"
+	"angles" "0 217 0"
+	"enabled" "1"
+	"origin" "507 -363 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54398"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 241.5 0"
+	"enabled" "1"
+	"origin" "-323 1253 344"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "54401"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 241.5 0"
+	"enabled" "1"
+	"origin" "-225 1253 344"
+	editor
+	{
+		"color" "195 156 0"
+		"groupid" "54400"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
 	"id" "52617"
 	"classname" "info_player_counterterrorist"
 	"angles" "0 241.5 0"
@@ -7151,7 +7492,7 @@ entity
 	"classname" "info_player_counterterrorist"
 	"angles" "0 16 0"
 	"enabled" "1"
-	"origin" "-1075 1212 201"
+	"origin" "-1028 1248 201"
 	editor
 	{
 		"color" "220 30 220"
@@ -7181,7 +7522,7 @@ entity
 	"classname" "info_player_counterterrorist"
 	"angles" "0 29.5 0"
 	"enabled" "1"
-	"origin" "-1061 1351 201"
+	"origin" "-1014 1387 201"
 	editor
 	{
 		"color" "220 30 220"
@@ -29267,8 +29608,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-502.228 1525.94 445.518]"
-		"look" "[-502.067 1525.07 445.067]"
+		"position" "[-320.515 1879.92 537.647]"
+		"look" "[-320.708 1878.97 537.392]"
 	}
 }
 cordons
